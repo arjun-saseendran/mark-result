@@ -50,7 +50,10 @@ input::placeholder {
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
+}
 
+input:focus {
+	color: white !important;
 }
 
 
