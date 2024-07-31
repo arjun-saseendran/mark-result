@@ -43,7 +43,7 @@ buttonClick.addEventListener('click', () => {
     } else {
         inputData.style.color = 'Orange'
         inputData.style.textAlign = 'center'
-        inputData.value = 'Enter a number!'
+        inputData.value = 'Enter your mark!!!'
     }
     if (inputData.value !== '' && buttonClick.innerText === 'Submit') {
         buttonClick.innerText = 'Reset'
